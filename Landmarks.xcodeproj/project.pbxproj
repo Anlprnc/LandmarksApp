@@ -39,6 +39,9 @@
 		04D545612C8E3E020096BB0C /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D545602C8E3E020096BB0C /* ProfileSummary.swift */; };
 		04D545632C8E3F230096BB0C /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D545622C8E3F230096BB0C /* HikeBadge.swift */; };
 		04D545652C8E430D0096BB0C /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D545642C8E430D0096BB0C /* ProfileEditor.swift */; };
+		04D545682C8E45A50096BB0C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D545672C8E45A50096BB0C /* PageViewController.swift */; };
+		04D5456A2C8E477E0096BB0C /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D545692C8E477E0096BB0C /* FeatureCard.swift */; };
+		04D5456C2C8E491A0096BB0C /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5456B2C8E491A0096BB0C /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +78,9 @@
 		04D545602C8E3E020096BB0C /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		04D545622C8E3F230096BB0C /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		04D545642C8E430D0096BB0C /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		04D545672C8E45A50096BB0C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		04D545692C8E477E0096BB0C /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		04D5456B2C8E491A0096BB0C /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				0482A7262C8B2B6F00E31439 /* ContentView.swift */,
+				04D545662C8E45800096BB0C /* PageView */,
 				04D5455D2C8E3D9C0096BB0C /* Profiles */,
 				04D545542C8E362E0096BB0C /* Categories */,
 				04D5454F2C8E2DCC0096BB0C /* Hikes */,
@@ -221,6 +228,16 @@
 				04D545642C8E430D0096BB0C /* ProfileEditor.swift */,
 			);
 			path = Profiles;
+			sourceTree = "<group>";
+		};
+		04D545662C8E45800096BB0C /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				04D545672C8E45A50096BB0C /* PageViewController.swift */,
+				04D545692C8E477E0096BB0C /* FeatureCard.swift */,
+				04D5456B2C8E491A0096BB0C /* PageView.swift */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +316,7 @@
 				04D5455C2C8E3CF90096BB0C /* Profile.swift in Sources */,
 				0482A7272C8B2B6F00E31439 /* ContentView.swift in Sources */,
 				04D545562C8E36420096BB0C /* CategoryHome.swift in Sources */,
+				04D5456A2C8E477E0096BB0C /* FeatureCard.swift in Sources */,
 				0435CB452C8DE024001F3272 /* Badge.swift in Sources */,
 				0482A7352C8B305400E31439 /* MapView.swift in Sources */,
 				04D545502C8E2DCC0096BB0C /* GraphCapsule.swift in Sources */,
@@ -307,10 +325,12 @@
 				04188B192C8C82D80030FF97 /* FavoriteButton.swift in Sources */,
 				04D5455A2C8E39D60096BB0C /* CategoryItem.swift in Sources */,
 				0435CB3D2C8DD86E001F3272 /* HexagonParameters.swift in Sources */,
+				04D545682C8E45A50096BB0C /* PageViewController.swift in Sources */,
 				04D545612C8E3E020096BB0C /* ProfileSummary.swift in Sources */,
 				04D5454A2C8E2CC20096BB0C /* Hike.swift in Sources */,
 				04D5455F2C8E3DB20096BB0C /* ProfileHost.swift in Sources */,
 				0435CB432C8DDFC4001F3272 /* RotatedBadgeSymbol.swift in Sources */,
+				04D5456C2C8E491A0096BB0C /* PageView.swift in Sources */,
 				0435CB412C8DDDB5001F3272 /* BadgeSymbol.swift in Sources */,
 				043713992C8C65A9002FD737 /* LandmarkList.swift in Sources */,
 				04D545652C8E430D0096BB0C /* ProfileEditor.swift in Sources */,
