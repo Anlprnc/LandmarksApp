@@ -24,7 +24,7 @@ struct TextOverlay: View {
     
     var gradient: LinearGradient {
         .linearGradient(
-            Gradient(colors: [.black.opacity(0.6), .black.opacity(0)])
+            Gradient(colors: [.black.opacity(0.6), .black.opacity(0)]),
             startPoint: .bottom,
             endPoint: .center
         )
